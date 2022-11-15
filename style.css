@@ -163,7 +163,7 @@ header .logs .sign-up {
 .features .btns .ios-btn {
   height: 50px;
   display: inline-block;
-    
+  background-color: #60326c;
   margin-left: 20px;
   width: 50px;
   border-radius: 25px;
