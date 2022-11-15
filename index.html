@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>neutronMail</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/50b1cc6bdd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Быбиков Станислав-->
+    <header>
+        <div class="logo bald-font">
+            <b class="bald-font">neutron</b>Mail
+        </div>
+
+        <div class="nav">
+            <div class="item ">About</div>
+            <div class="item">Security</div>
+            <div class="item">Blog</div>
+            <div class="item">Careers</div>
+            <div class="item">Support</div>
+            <div class="item">Donate</div>
+        </div>
+
+        <div class="logs">
+            <div class="log-in">Log in</div>
+            <div class="sign-up"><a>Sign up</a></div>
+        </div>
+
+        <div class="langs">
+            <a class="bald-font">English</a> /
+            <a>French</a> /
+            <a>Italian</a> /
+            <a>Polish</a>
+        </div>
+
+    </header>
+    <main>
+        <div class="features">
+            <h1>Secure Email Communication</h1>
+            <h2>Based in</h2> 
+            <p>Somewhere</p>
+            <div class="btns">
+                <div class="create-acc"><a>Create account</a></div>
+                <div class="ios-btn"></div>
+                <div class="andr-btn"></div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="swiss-privacy inline">
+                <div>
+                    <div class="about-content-list">
+                        <div class = "about-lists">
+                            <img src="images/Swiss Privacy.png" alt="" width = "55px" height= "55px"
+                                 class="features-list-item-list_discription-item-image">
+                        </div>
+                            <div class = "about-lists">
+                                <div class = "about-list-header">Swiss Privacy</div>
+                                <p>Data Security and Neutrality</p>
+                            </div>
+                    </div>
+                    <div class="text">
+                        NeutronMail is incorporated in Somewhere and all our serv-
+                        ers are located in Switzerland. This means all user data is
+                        protected by strict Swiss privacy laws.
+                    </div>
+
+                </div>
+            </div>
+            <div class="hr5"></div>
+            <div class="double-encryption inline">
+                <div>
+                    <div class="about-content-list">
+                        <div class = "about-lists">
+                            <img src="images/Double Encryption.png" alt="" width = "55px" height= "55px"
+                                 class="features-list-item-list_discription-item-image">
+                        </div>
+                        <div class = "about-lists">
+                            <div class = "about-list-header">Double Encryption</div>
+                            <p>Automatic Email Security</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        All emails are secured automatically with end-to-end
+                        encryption. This means even we cannot decrypt and read
+                        your emails. As a result, your encrypted emails cannot
+                        be shared with third parties.
+                    </div>
+                </div>
+            </div>
+            <div class="hr6"></div>
+            <div class="anonymous-email inline">
+                <div>
+                    <div class="about-content-list">
+                        <div class = "about-lists">
+                            <img src="images/Annonymous Email.png" alt="" width = "55px" height= "55px"
+                                 class="features-list-item-list_discription-item-image">
+                        </div>
+                        <div class = "about-lists">
+                            <div class = "about-list-header">Anonymous Email</div>
+                            <p>Protect Your Privacy</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        No personal information is required to create your secure
+                        email account. By default, we do not keep any IP logs which
+                        can be linked to your anonymous email account. Your privacy
+                        comes first.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Nikita Shidlouski-->
+
+        <div class="ph-security">
+            <h1>Physical Security</h1>
+            <div class="info">
+                <h2>NeutronMail's infrastructure resides in Europe's </h2>
+                <h2>most secure </h2>
+                <p>datacenter, underneath 1000 meters of solid rock. </p>
+            </div>
+            <div class="info-rect">
+                <p>Learn more about our security features</p>
+            </div>
+        </div>
+
+        <div class="testimonials ">
+
+            <div class="magazins"></div>
+
+            <div class="wrapper">
+                <div class="controls border">
+                    <div class="btn" id="ctrl1" onclick="imgsrc(0, 1)" style="background-color: black;"></div>
+                    <div class="btn" id="ctrl2" onclick="imgsrc(1, 2)"></div>
+                    <div class="btn" id="ctrl3" onclick="imgsrc(2, 3)"></div>
+                </div>
+                <div class="img border">
+                    <img src="images/slider/1.jpg" alt="" id="background-wrapper">
+                </div>
+                <script language="javascript">
+                    var bg = document.getElementById("background-wrapper");
+                    var ctrl1 = document.getElementById("ctrl1");
+                    var ctrl2 = document.getElementById("ctrl2");
+                    var ctrl3 = document.getElementById("ctrl3");
+
+                    var imgs = new Array("images/slider/1.jpg", "images/slider/2.png", "images/slider/3.jpg");
+                    function imgsrc(i, id) {
+                        bg.src = imgs[i];
+                        bg.alt = id;
+                        if (id == 1) {
+                            ctrl1.style.backgroundColor = "black";
+                            ctrl2.style.backgroundColor = "grey";
+                            ctrl3.style.backgroundColor = "grey";
+                        }
+                        if (id == 2) {
+                            ctrl2.style.backgroundColor = "black";
+                            ctrl1.style.backgroundColor = "grey";
+                            ctrl3.style.backgroundColor = "grey";
+                        }
+                        if (id == 3) {
+                            ctrl3.style.backgroundColor = "black";
+                            ctrl2.style.backgroundColor = "grey";
+                            ctrl1.style.backgroundColor = "grey";
+                        }
+                    }
+                </script>
+            </div>
+
+            <div class="get-it">
+                <h1>Any device, anywhere</h1>
+                <p>The NeutronMail inbox is optimized for productivity. Each detail</p>
+                <p>within our secure email service is optimized to help you better</p>
+                <p>read, organize, and send email</p>
+                <div class="links">
+                    <a href="https://www.apple.com/ru/app-store/"> <img src="images/app-store.png" alt="none"></a>
+                    <a href="https://play.google.com/store/games"><img src="images/google-play.png" alt="none("></a>
+                </div>
+                <div class="hr"></div>
+            </div>
+        </div>
+
+
+        <div class="partners">
+            <div class="support">
+                <h1>Privacy is a fundamental human right</h1>
+                <h2>Your support helps us to protect privacy world-wide</h2>
+                <div class="donate-btns">
+                    <div class="button inline-block"><a href="" class="button-upgrage">Upgrade to Paid Plan</a></div>
+                    <div class="button  inline-block"><a href="" class="button-donate">$ Donate</a></div>
+                </div>
+            </div>
+
+            <div class="hr1"></div>
+            <br>
+            <p>Those, who help us secure your privacy</p>
+        </div>
+        <div class="marks"></div>
+    </main>
+
+    <footer>
+        <div class="contacts">
+            <ul>
+                <li>General: <a class="contacts-element"> contact@neutronmail.ch </a> </li>
+                <li>Media: <a class="contacts-element"> media@neutronmail.ch </a> </li>
+                <li>Security: <a class="contacts-element"> security@neutronmail.ch </a> </li>
+                <br>
+                <li>For support inquiries, please visit</li>
+                <li> <a href="#" class="contacts-element-link"> neutronmail.com/support </a> </li>
+                <div class="hr4"></div>
+            </ul>
+            <div class="footer__content-lists">
+                <ul class="footer__content-list">
+                    <h3> Company </h3>
+                    <br>
+                    <li> <a href="#" class="footer__content-list-link">Blog</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Team</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Careers</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Support</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Donate</a> </li>
+                </ul>
+                <ul class="footer__content-list">
+                    <h3> Legal </h3>
+                    <br>
+                    <li> <a href="#" class="footer__content-list-link">Imprint</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Privacy Policy</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Terms & Conditions</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Transparency Report</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Report Abuse</a> </li>
+                    <div class="hr3"></div>
+                </ul>
+                <ul class="footer__content-list">
+                    <h3> NeutronMail </h3>
+                    <br>
+                    <li> <a href="#" class="footer__content-list-link">Pricing</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Security</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Shop</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Press/Media Kit</a> </li>
+                    <li> <a href="#" class="footer__content-list-link">Onion Site</a> </li>
+                    <div class="hr2"></div>
+                </ul>
+            </div>
+        </div>
+        <div class="social-networks">
+            <h4> <a href="#" class="social-networks-link"> Facebook </a>
+                / <a href="#" class="social-networks-link"> Twitter </a>
+                / <a href="#" class="social-networks-link"> Google+ </a>
+                / <a href="#" class="social-networks-link"> Feedback Forum </a>
+                / <a href="#" class="social-networks-link"> Reddit </a> </h4>
+            <br>
+            <h4> <a class="contacts-copyright"> &#169;2017 Neutron Technologies AG. All Rights Reserved. </a> </h4>
+        </div>
+    </footer>
+</body>
+
+</html>
