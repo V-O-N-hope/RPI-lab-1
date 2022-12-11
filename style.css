@@ -322,7 +322,6 @@ header .logs .sign-up {
 
 .wrapper img {
   width: 400px;
-  position: absolute;
 }
 
 .testimonials .get-it {
@@ -446,13 +445,15 @@ header .logs .sign-up {
 
 .contacts {
   color: rgb(92, 92, 92);
-  position: relative;
+  margin-top: 100px;
+  margin-left: 190px;
   top: 100px;
   left: 200px;
   display: flex;
   font-family: Titillium;
   font-size: 14px;
   line-height: 24px;
+  height: 280px;
 }
 
 .contacts-element {
@@ -466,9 +467,8 @@ header .logs .sign-up {
 
 .social-networks {
   color: rgb(92, 92, 92);
-  position: relative;
-  bottom: 200px;
-  left: 175px;
+  line-height: 24px;
+  margin-left: 175px;
   font-family: Titillium;
   font-size: 12px;
 }
@@ -478,12 +478,11 @@ header .logs .sign-up {
 }
 
 .footer__content-lists {
-  position: relative;
   left: 500px;
-  display: flex;
-  height: 100%;
+  height: 80%;
   text-align: right;
 }
+
 
 ul.footer__content-list {
   direction: rtl;
@@ -493,7 +492,7 @@ ul.footer__content-list {
 }
 
 .footer__content-list {
-  padding-right: 70px;
+  margin-left: 60px;
   font-size: 18px;
   font-weight: bold;
 }
@@ -503,6 +502,10 @@ ul.footer__content-list {
   text-decoration: none;
   font-weight: 300;
   font-size: 14px;
+}
+
+.first-item{
+  margin-left: 520px;
 }
 
 .hr2 {
