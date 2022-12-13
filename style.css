@@ -38,15 +38,15 @@ body {
 }
 
 header {
-  margin-left: 176px;
-  margin-top: 69px;
+  margin-left: 198px;
+  margin-top: 78px;
   color: #858688;
 }
 
 header .logo {
   color: #60326c;
   display: inline-block;
-  font-size: 27px;
+  font-size: 30px;
 }
 
 header .logo b {
@@ -56,13 +56,13 @@ header .logo b {
 
 header .nav {
   font-size: 14px;
-  margin-left: 482px;
+  margin-left: 548px;
   display: inline-block;
 }
 
 header .nav .item {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 
@@ -101,35 +101,39 @@ header .logs .sign-up {
 }
 
 .langs {
-  margin-top: 10px;
+  margin-top: 14px;
   font-size: 13px;
 }
 
+.langs a{
+  margin-left: 5px;
+}
+
 .features {
-  width: 1600px;
+  width: 1800px;
   background-position: center;
   background-size: cover;
-  margin-top: 110px;
+  margin-top: 165px;
   background-repeat: no-repeat;
   background-image: url(images/headerbg.png);
   height: 475px;
 }
 
 .features h1 {
-  padding-top: 42px;
+  padding-top: 5px;
   font-weight: 600;
-  margin-left: 460px;
-  font-size: 55px;
+  margin-left: 520px;
+  font-size: 60px;
   color: #535356;
 }
 
 .features h2 {
-  font-weight: 550;
+  font-weight: 500;
   margin-top: 12px;
   display: inline-block;
-  font-size: 30px;
+  font-size: 40px;
   color: #535356;
-  margin-left: 655px;
+  margin-left: 740px;
 }
 
 .features p {
@@ -140,20 +144,21 @@ header .logs .sign-up {
 }
 
 .features .btns {
-  margin-top: 70px;
-  margin-left: 630px;
+  margin-top: 76px;
+  margin-left: 710px;
   display: flex;
 }
 
 .features .btns .create-acc {
-  height: 50px;
+  height: 55px;
   display: inline-block;
   color: white;
   background: linear-gradient(45deg, #60326c, #6062b7);
-  width: 220px;
+  width: 240px;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 17px;
   border-radius: 20px;
+  font-weight: 550;
 }
 
 .features .btns .create-acc:hover {
@@ -187,7 +192,7 @@ header .logs .sign-up {
 .about{
   display: flex;
   column-gap: 35px;
-  margin-top: 200px;
+  margin-top: 130px;
   margin-left: 320px;
   color: #959393;
 }
@@ -225,7 +230,7 @@ header .logs .sign-up {
 /*Nikita Shidlouski*/
 
 .ph-security {
-  margin-top: -130px;
+  margin-top: -145px;
 }
 
 .ph-security h1 {
@@ -272,7 +277,7 @@ header .logs .sign-up {
 .testimonials {
   background: url(images/devices.png);
   background-repeat: no-repeat;
-  background-position: 815px 60px;
+  background-position: 950px 110px;
 }
 
 .testimonials .magazins {
@@ -325,12 +330,13 @@ header .logs .sign-up {
 }
 
 .testimonials .get-it {
-  margin-top: 25px;
+  margin-top: 90px;
 }
 
 .testimonials .get-it h1 {
-  font-size: 30px;
-  margin-left: 670px;
+  font-size: 35px;
+  font-weight: 500;
+  margin-left: 785px;
   color: #535353;
 }
 
@@ -359,7 +365,7 @@ header .logs .sign-up {
 }
 
 .hr {
-  margin-top: 130px;
+  margin-top: 170px;
   margin-left: 400px;
   width: 1400px;
   height: 1px;
@@ -379,37 +385,37 @@ header .logs .sign-up {
 }
 
 .partners .support h1 {
-  font-size: 30px;
-  margin-left: 545px;
+  font-size: 37px;
+  margin-left: 610px;
   color: #535353;
 }
 
 .partners .support h2 {
-  margin-top: 5px;
-  font-size: 25px;
-  margin-left: 520px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: 575px;
   color: #959393;
 }
 
 .partners .support .donate-btns .button:first-child {
   margin-top: 37px;
   display: inline-block;
-  margin-left: 600px;
-  height: 50px;
-  width: 210px;
+  margin-left: 660px;
+  height: 60px;
+  width: 250px;
   border-radius: 25px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .partners .support .donate-btns .button:last-child {
   display: inline-block;
-  margin-left: 40px;
-  height: 55px;
-  width: 150px;
+  margin-left: 50px;
+  height: 60px;
+  width: 170px;
   border-radius: 25px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .partners .support .donate-btns .button:first-child p {
@@ -467,7 +473,6 @@ header .logs .sign-up {
 
 .social-networks {
   color: rgb(92, 92, 92);
-  line-height: 24px;
   margin-left: 175px;
   font-family: Titillium;
   font-size: 12px;
